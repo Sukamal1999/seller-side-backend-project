@@ -1,0 +1,57 @@
+/* Reset some default styles */
+body, h1, h2, ul, p, form {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styling for the candy list */
+ul {
+  list-style: none;
+}
+
+li {
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the buy form */
+.buy-form {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.buy-form input[type="number"] {
+  width: 60px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.buy-form button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Center the form and candy list */
+#addCandyForm, #candyList {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Center the h1 and h2 headings */
+h1, h2 {
+  text-align: center;
+}
+
+/* Add some space at the bottom of the page */
+body {
+  padding-bottom: 20px;
+}
